@@ -1,4 +1,4 @@
-# BraiinOS-Dynamic-Power-Scaling-based-on-Weather
+# BraiinOS-Dynamic-Power-Scaling-based-on-Outdoor-Temperature
 
 
 Connect to BrainOS Miner
