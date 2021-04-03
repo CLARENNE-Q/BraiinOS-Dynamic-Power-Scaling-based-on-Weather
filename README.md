@@ -22,6 +22,27 @@ local openweathermapapikey = "305703100f01b46807205991806ecXXX"
 local openweathermapcityname = "montreal"
 ```
 
+If you need to modify temperature/power you can change this bloc:
+```
+if value.main.temp > 20
+then
+	neededpower = '1000'
+else
+	if value.main.temp > 10
+	then
+		neededpower = '1200'
+	else
+		if value.main.temp > 0
+		then
+			neededpower = '1400'
+		else
+			neededpower = '1600'
+		end
+	end
+end
+```
+
+
 Test it:
 ```lua ajust_miner_power_based_on_weather.lua```
 
