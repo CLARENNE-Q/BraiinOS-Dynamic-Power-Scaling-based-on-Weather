@@ -24,7 +24,7 @@ local openweathermapcityname = "montreal"
 You can have a free API Key here: https://home.openweathermap.org/api_keys
 
 
-If you need to modify temperature/power you can change this bloc:
+Also if you need to modify temperature/power you can change this bloc:
 ```
 if value.main.temp > 20
 then
@@ -59,4 +59,4 @@ Add this line:
 0 * * * * /usr/bin/lua /root/ajust_miner_power_based_on_weather.lua
 ```
 
-
+Tadam, It's works !
