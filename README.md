@@ -21,6 +21,8 @@ Adjust thoses lines:
 local openweathermapapikey = "305703100f01b46807205991806ecXXX"
 local openweathermapcityname = "montreal"
 ```
+You can have a free API Key here: https://home.openweathermap.org/api_keys
+
 
 If you need to modify temperature/power you can change this bloc:
 ```
