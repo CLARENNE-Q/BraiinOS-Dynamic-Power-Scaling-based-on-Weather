@@ -41,6 +41,7 @@ else
 	end
 end
 ```
+You can also switch from celsius to fahrenheit: `&units=metric` by `&units=imperial` Cf: https://openweathermap.org/current#data
 
 
 Test it:
