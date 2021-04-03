@@ -3,7 +3,7 @@
 
 Connect to BrainOS Miner
 ```
-ssh -l root 192.168.1.184
+ssh -l root 192.168.1.X
 ```
 
 Get Lua Script:
