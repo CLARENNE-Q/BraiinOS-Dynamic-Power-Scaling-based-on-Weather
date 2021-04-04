@@ -1,5 +1,4 @@
-# BraiinOS-Dynamic-Power-Scaling-based-on-Outdoor-Temperature
-
+# README
 
 Connect to BrainOS Miner
 ```
