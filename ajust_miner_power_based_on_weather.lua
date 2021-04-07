@@ -22,7 +22,7 @@ end
 
 local ok, statusCode, headers, statusText = http.request {
   method = "GET",
-  url = "http://api.openweathermap.org/data/2.5/onecall?lat="..lat.."&lon="..lon.."&appid="..openweathermapapikey.."&units=metric",
+  url = "https://api.openweathermap.org/data/2.5/onecall?lat="..lat.."&lon="..lon.."&appid="..openweathermapapikey.."&units=metric",
   sink = collect
 }
 
