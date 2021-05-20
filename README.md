@@ -12,6 +12,8 @@ wget https://raw.githubusercontent.com/CLARENNE-Q/BraiinOS-Dynamic-Power-Scaling
 
 Edit file:
 ```
+opkg update
+opkg install nano
 nano /root/ajust_miner_power_based_on_weather.lua
 ```
 
